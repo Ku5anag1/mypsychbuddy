@@ -1,9 +1,8 @@
-
 import { useState } from 'react';
 import { cn } from '@/lib/utils';
 import { Calendar, Clock, MapPin, MessageSquare } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
